@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		150FA3382DD3D2B4000EC788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 150FA3222DD3D2B2000EC788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 150FA3292DD3D2B2000EC788;
+			remoteInfo = "YT-Vabor";
+		};
+		150FA3422DD3D2B4000EC788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 150FA3222DD3D2B2000EC788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 150FA3292DD3D2B2000EC788;
+			remoteInfo = "YT-Vabor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		150FA32A2DD3D2B2000EC788 /* YT-Vabor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YT-Vabor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		150FA3372DD3D2B4000EC788 /* YT-VaborTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YT-VaborTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		150FA3412DD3D2B4000EC788 /* YT-VaborUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YT-VaborUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		150FA32C2DD3D2B2000EC788 /* YT-Vabor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "YT-Vabor";
+			sourceTree = "<group>";
+		};
+		150FA33A2DD3D2B4000EC788 /* YT-VaborTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "YT-VaborTests";
+			sourceTree = "<group>";
+		};
+		150FA3442DD3D2B4000EC788 /* YT-VaborUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "YT-VaborUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		150FA3272DD3D2B2000EC788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150FA3342DD3D2B4000EC788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150FA33E2DD3D2B4000EC788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		150FA3212DD3D2B2000EC788 = {
+			isa = PBXGroup;
+			children = (
+				150FA32C2DD3D2B2000EC788 /* YT-Vabor */,
+				150FA33A2DD3D2B4000EC788 /* YT-VaborTests */,
+				150FA3442DD3D2B4000EC788 /* YT-VaborUITests */,
+				150FA32B2DD3D2B2000EC788 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		150FA32B2DD3D2B2000EC788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				150FA32A2DD3D2B2000EC788 /* YT-Vabor.app */,
+				150FA3372DD3D2B4000EC788 /* YT-VaborTests.xctest */,
+				150FA3412DD3D2B4000EC788 /* YT-VaborUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		150FA3292DD3D2B2000EC788 /* YT-Vabor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150FA34B2DD3D2B4000EC788 /* Build configuration list for PBXNativeTarget "YT-Vabor" */;
+			buildPhases = (
+				150FA3262DD3D2B2000EC788 /* Sources */,
+				150FA3272DD3D2B2000EC788 /* Frameworks */,
+				150FA3282DD3D2B2000EC788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				150FA32C2DD3D2B2000EC788 /* YT-Vabor */,
+			);
+			name = "YT-Vabor";
+			packageProductDependencies = (
+			);
+			productName = "YT-Vabor";
+			productReference = 150FA32A2DD3D2B2000EC788 /* YT-Vabor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		150FA3362DD3D2B4000EC788 /* YT-VaborTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150FA34E2DD3D2B4000EC788 /* Build configuration list for PBXNativeTarget "YT-VaborTests" */;
+			buildPhases = (
+				150FA3332DD3D2B4000EC788 /* Sources */,
+				150FA3342DD3D2B4000EC788 /* Frameworks */,
+				150FA3352DD3D2B4000EC788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				150FA3392DD3D2B4000EC788 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				150FA33A2DD3D2B4000EC788 /* YT-VaborTests */,
+			);
+			name = "YT-VaborTests";
+			packageProductDependencies = (
+			);
+			productName = "YT-VaborTests";
+			productReference = 150FA3372DD3D2B4000EC788 /* YT-VaborTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		150FA3402DD3D2B4000EC788 /* YT-VaborUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150FA3512DD3D2B4000EC788 /* Build configuration list for PBXNativeTarget "YT-VaborUITests" */;
+			buildPhases = (
+				150FA33D2DD3D2B4000EC788 /* Sources */,
+				150FA33E2DD3D2B4000EC788 /* Frameworks */,
+				150FA33F2DD3D2B4000EC788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				150FA3432DD3D2B4000EC788 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				150FA3442DD3D2B4000EC788 /* YT-VaborUITests */,
+			);
+			name = "YT-VaborUITests";
+			packageProductDependencies = (
+			);
+			productName = "YT-VaborUITests";
+			productReference = 150FA3412DD3D2B4000EC788 /* YT-VaborUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		150FA3222DD3D2B2000EC788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					150FA3292DD3D2B2000EC788 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					150FA3362DD3D2B4000EC788 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 150FA3292DD3D2B2000EC788;
+					};
+					150FA3402DD3D2B4000EC788 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 150FA3292DD3D2B2000EC788;
+					};
+				};
+			};
+			buildConfigurationList = 150FA3252DD3D2B2000EC788 /* Build configuration list for PBXProject "YT-Vabor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 150FA3212DD3D2B2000EC788;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 150FA32B2DD3D2B2000EC788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				150FA3292DD3D2B2000EC788 /* YT-Vabor */,
+				150FA3362DD3D2B4000EC788 /* YT-VaborTests */,
+				150FA3402DD3D2B4000EC788 /* YT-VaborUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		150FA3282DD3D2B2000EC788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150FA3352DD3D2B4000EC788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150FA33F2DD3D2B4000EC788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		150FA3262DD3D2B2000EC788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150FA3332DD3D2B4000EC788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150FA33D2DD3D2B4000EC788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		150FA3392DD3D2B4000EC788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 150FA3292DD3D2B2000EC788 /* YT-Vabor */;
+			targetProxy = 150FA3382DD3D2B4000EC788 /* PBXContainerItemProxy */;
+		};
+		150FA3432DD3D2B4000EC788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 150FA3292DD3D2B2000EC788 /* YT-Vabor */;
+			targetProxy = 150FA3422DD3D2B4000EC788 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		150FA3492DD3D2B4000EC788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = M29HL334KG;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		150FA34A2DD3D2B4000EC788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = M29HL334KG;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		150FA34C2DD3D2B4000EC788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M29HL334KG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justinseal.YT-Vabor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		150FA34D2DD3D2B4000EC788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M29HL334KG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justinseal.YT-Vabor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		150FA34F2DD3D2B4000EC788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M29HL334KG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justinseal.YT-VaborTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YT-Vabor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YT-Vabor";
+			};
+			name = Debug;
+		};
+		150FA3502DD3D2B4000EC788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M29HL334KG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justinseal.YT-VaborTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YT-Vabor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YT-Vabor";
+			};
+			name = Release;
+		};
+		150FA3522DD3D2B4000EC788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M29HL334KG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justinseal.YT-VaborUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "YT-Vabor";
+			};
+			name = Debug;
+		};
+		150FA3532DD3D2B4000EC788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M29HL334KG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justinseal.YT-VaborUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "YT-Vabor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		150FA3252DD3D2B2000EC788 /* Build configuration list for PBXProject "YT-Vabor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150FA3492DD3D2B4000EC788 /* Debug */,
+				150FA34A2DD3D2B4000EC788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		150FA34B2DD3D2B4000EC788 /* Build configuration list for PBXNativeTarget "YT-Vabor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150FA34C2DD3D2B4000EC788 /* Debug */,
+				150FA34D2DD3D2B4000EC788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		150FA34E2DD3D2B4000EC788 /* Build configuration list for PBXNativeTarget "YT-VaborTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150FA34F2DD3D2B4000EC788 /* Debug */,
+				150FA3502DD3D2B4000EC788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		150FA3512DD3D2B4000EC788 /* Build configuration list for PBXNativeTarget "YT-VaborUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150FA3522DD3D2B4000EC788 /* Debug */,
+				150FA3532DD3D2B4000EC788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 150FA3222DD3D2B2000EC788 /* Project object */;
+}
